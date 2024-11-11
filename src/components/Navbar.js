@@ -24,7 +24,7 @@ export function Navbar({ language, setLanguage }) {
           className="text-2xl font-bold bg-gradient-to-r from-green-400 via-blue-500 to-green-600 text-transparent bg-clip-text"
           whileHover={{ scale: 1.05 }}
         >
-          MB
+          BM
         </motion.div>
         <div className="flex space-x-4 items-center">
           <Button variant="ghost" size="icon" className="text-green-400 hover:text-blue-300">
