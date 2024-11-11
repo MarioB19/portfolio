@@ -82,7 +82,7 @@ export const getProjects = (t) => [
     title: t.projects.vive?.title || 'Vive',
     description: t.projects.vive?.description || 'Description not available',
     image: "/projects/vive.png",
-    projectLink: "https://vive.vercel.app",
+    projectLink: "https://www.shieldedchange.com.mx/",
     technologies: [
       { 
         name: "Next.js", 
