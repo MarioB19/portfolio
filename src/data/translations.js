@@ -4,6 +4,7 @@ export const translations = {
         home: "Inicio",
         projects: "Proyectos",
         skills: "Habilidades",
+        education: "Educación",
         contact: "Contacto"
       },
       hero: {
@@ -14,17 +15,30 @@ export const translations = {
       projects: {
         title: "Proyectos Destacados",
         viewProject: "Ver Proyecto",
-        daskalos: {
-          title: "Proyecto Daskalos",
-          description: "Plataforma de tutorías de matemáticas galardonada con la Beca Ford Philanthropy Fellowship."
-        },
+        learnMore: "Saber más",
         voluntRED: {
           title: "VoluntRED",
           description: "Plataforma de voluntariado social que obtuvo una inversión de $1500 para su incubación."
         },
-        odsJalisco: {
-          title: "ODS Jalisco",
-          description: "Iniciativas para promover los Objetivos de Desarrollo Sostenible en Jalisco."
+        daskalos: {
+          title: "Proyecto Daskalos",
+          description: "Plataforma de tutorías de matemáticas galardonada con la Beca Ford Philanthropy Fellowship. Mi rol fue como desarrollador de software, contribuyendo a la creación de esta innovadora solución educativa."
+        },
+        chisteIA: {
+          title: "ChisteIA",
+          description: "Generador de chistes que utiliza la API de ChatGPT. Desarrollado con Next.js y componentes de Shadcn, empleando Firebase como Backend as a Service (BaaS)."
+        },
+        trescursivo: {
+          title: "Trescursivo",
+          description: "Aplicación web interactiva que reinventa el clásico Tic-Tac-Toe, añadiendo la emocionante dimensión de un juego recursivo."
+        },
+        vive: {
+          title: "Vive",
+          description: "Página web desarrollada para un estudiante de Recrea Talento, enfocada en combatir la violencia intrafamiliar y promover relaciones saludables."
+        },
+        devTutoring: {
+          title: "DevTutoring",
+          description: "Plataforma de comercio electrónico especializada en ofrecer tutorías de programación, conectando a estudiantes con expertos en desarrollo de software."
         }
       },
       skills: {
@@ -40,10 +54,6 @@ export const translations = {
         mongodb: "MongoDB",
         tailwindcss: "Tailwind CSS"
       },
-      footer: {
-        rights: "Todos los derechos reservados."
-      },
-
       education: {
         title: "Formación Académica",
         completed: "Completado",
@@ -69,13 +79,17 @@ export const translations = {
           }
         ]
       },
-
+      footer: {
+        rights: "Todos los derechos reservados."
+      },
+      english : false,
     },
     en: {
       nav: {
         home: "Home",
         projects: "Projects",
         skills: "Skills",
+        education: "Education",
         contact: "Contact"
       },
       hero: {
@@ -86,17 +100,30 @@ export const translations = {
       projects: {
         title: "Featured Projects",
         viewProject: "View Project",
-        daskalos: {
-          title: "Daskalos Project",
-          description: "Math tutoring platform awarded with the Ford Philanthropy Fellowship."
-        },
+        learnMore: "Learn More",
         voluntRED: {
           title: "VoluntRED",
-          description: "Social volunteering platform that obtained a $1500 investment for incubation."
+          description: "Social volunteering platform that secured a $1500 investment for incubation."
         },
-        odsJalisco: {
-          title: "SDG Jalisco",
-          description: "Initiatives to promote Sustainable Development Goals in Jalisco."
+        daskalos: {
+          title: "Daskalos Project",
+          description: "Math tutoring platform awarded with the Ford Philanthropy Fellowship. My role was as a software developer, contributing to the creation of this innovative educational solution."
+        },
+        chisteIA: {
+          title: "ChisteIA",
+          description: "Joke generator utilizing the ChatGPT API. Developed with Next.js and Shadcn components, employing Firebase as a Backend as a Service (BaaS)."
+        },
+        trescursivo: {
+          title: "Trescursivo",
+          description: "Interactive web application that reimagines the classic Tic-Tac-Toe, adding the exciting dimension of a recursive game."
+        },
+        vive: {
+          title: "Vive",
+          description: "Website developed for a Recrea Talento student, focused on combating domestic violence and promoting healthy relationships."
+        },
+        devTutoring: {
+          title: "DevTutoring",
+          description: "E-commerce platform specialized in offering programming tutoring, connecting students with software development experts."
         }
       },
       skills: {
@@ -112,11 +139,7 @@ export const translations = {
         mongodb: "MongoDB",
         tailwindcss: "Tailwind CSS"
       },
-      footer: {
-        rights: "All rights reserved."
-      }
-    ,
-    education: {
+      education: {
         title: "Education",
         completed: "Completed",
         inProgress: "In progress",
@@ -141,5 +164,9 @@ export const translations = {
           }
         ]
       },
+      footer: {
+        rights: "All rights reserved."
+      },
+      english : true,
+    }
   }
-}

@@ -19,7 +19,7 @@ export default function Home() {
       <main>
         <Hero t={t.hero} />
         <Education t={t.education} />
-        <Projects t={t.projects} />
+        <Projects t={t} />
         <Skills t={t.skills} />
 
       </main>
