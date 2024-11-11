@@ -1,10 +1,17 @@
 'use client'
 
+import { useState } from 'react'
 import { motion } from 'framer-motion'
 import { Button } from "@/components/ui/button"
-import { Github, Linkedin, Mail } from 'lucide-react'
+import { Github, Linkedin, Mail, Globe } from 'lucide-react'
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu"
 
-export function Navbar() {
+export function Navbar({ language, setLanguage }) {
   return (
     <motion.nav 
       className="fixed top-0 left-0 right-0 z-50 bg-black bg-opacity-50 backdrop-blur-md"
@@ -19,7 +26,7 @@ export function Navbar() {
         >
           MB
         </motion.div>
-        <div className="flex space-x-4">
+        <div className="flex space-x-4 items-center">
           <Button variant="ghost" size="icon" className="text-green-400 hover:text-blue-300">
             <Mail className="h-5 w-5" />
           </Button>
@@ -29,6 +36,21 @@ export function Navbar() {
           <Button variant="ghost" size="icon" className="text-green-400 hover:text-blue-300">
             <Linkedin className="h-5 w-5" />
           </Button>
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="ghost" size="icon" className="text-green-400 hover:text-blue-300">
+                <Globe className="h-5 w-5" />
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end" className="bg-gray-900 border-green-400">
+              <DropdownMenuItem onClick={() => setLanguage('es')} className="text-green-400 hover:text-blue-300 hover:bg-gray-800">
+                Español
+              </DropdownMenuItem>
+              <DropdownMenuItem onClick={() => setLanguage('en')} className="text-green-400 hover:text-blue-300 hover:bg-gray-800">
+                English
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
         </div>
       </div>
     </motion.nav>
