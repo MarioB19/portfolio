@@ -42,7 +42,34 @@ export const translations = {
       },
       footer: {
         rights: "Todos los derechos reservados."
-      }
+      },
+
+      education: {
+        title: "Formación Académica",
+        completed: "Completado",
+        inProgress: "En curso",
+        items: [
+          {
+            degree: "Tecnólogo en Desarrollo de Software",
+            institution: "Centro de Enseñanza Técnica Industrial (CETI), Plantel Colomos",
+            period: "Agosto 2020 - Junio 2024",
+            completed: true
+          },
+          {
+            degree: "Ingeniería Informática",
+            institution: "Centro Universitario de Ciencias Exactas e Ingenierías (CUCEI)",
+            period: "Agosto 2024 - Junio 2028",
+            completed: false
+          },
+          {
+            degree: "Samsung Innovation Campus IA",
+            institution: "Universidad de Monterrey (UDEM)",
+            period: "Noviembre 2024 - Abril 2025",
+            completed: false
+          }
+        ]
+      },
+
     },
     en: {
       nav: {
@@ -88,5 +115,31 @@ export const translations = {
       footer: {
         rights: "All rights reserved."
       }
-    }
+    ,
+    education: {
+        title: "Education",
+        completed: "Completed",
+        inProgress: "In progress",
+        items: [
+          {
+            degree: "Software Development Technologist",
+            institution: "Centro de Enseñanza Técnica Industrial (CETI), Colomos Campus",
+            period: "August 2020 - June 2024",
+            completed: true
+          },
+          {
+            degree: "Computer Engineering",
+            institution: "University Center for Exact Sciences and Engineering (CUCEI)",
+            period: "August 2024 - June 2028",
+            completed: false
+          },
+          {
+            degree: "Samsung Innovation Campus AI",
+            institution: "University of Monterrey (UDEM)",
+            period: "November 2024 - April 2025",
+            completed: false
+          }
+        ]
+      },
   }
+}

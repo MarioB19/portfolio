@@ -7,6 +7,7 @@ import { Hero } from '@/components/Hero'
 import { Projects } from '@/components/Projects'
 import { Skills } from '@/components/Skills'
 import { translations } from '@/data/translations'
+import { Education } from '@/components/Education'
 
 export default function Home() {
   const [language, setLanguage] = useState('es')
@@ -17,8 +18,10 @@ export default function Home() {
       <Navbar language={language} setLanguage={setLanguage} />
       <main>
         <Hero t={t.hero} />
+        <Education t={t.education} />
         <Projects t={t.projects} />
         <Skills t={t.skills} />
+
       </main>
       <motion.footer
         className="text-center py-8 text-green-400"
