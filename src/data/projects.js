@@ -31,6 +31,10 @@ export const getProjects = (t) => [
         name: "Next.js", 
         icon: "/technologies/nextjs.png" 
       },
+      { 
+        name: "Firebase", 
+        icon: "/technologies/firebase.png"
+      },
     ]
   },
   {
